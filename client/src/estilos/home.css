@@ -1,0 +1,99 @@
+.Contenedor-home{
+    background-image: url("https://imgs.search.brave.com/Gch8PVWevN9908gp9Txpluv4Wf5k9fgxsXa3gyPbzow/rs:fit:1200:1200:1/g:ce/aHR0cDovL2NpdHl3/YWxscGFwZXJoZC5j/b20vZG93bmxvYWQv/MzYzLWJlcm5hLXN1/aXphLWZvbmRvcy1k/ZS1lc2NyaXRvcmlv/LmpwZw");
+    
+    background-size: cover;
+    box-shadow: rgb(15, 15, 15) 15px 0 15px;
+    height: 180px;
+}
+
+.B-Inicio{
+    background-color: #eeff00;
+    border: 1px black inset;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 4px 8px;
+}
+
+
+.B-Inicio-1{
+    margin-right: 5px;
+}
+
+.B-Inicio:hover{
+    background-color: rgb(193, 196, 35);
+  cursor: pointer;
+}
+
+.C-dos{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+}
+.B-home-selector{
+    background-color: #eeff00;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+.C-tres{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    font-size: 15px ;
+    color: rgb(255, 251, 4);
+    text-transform: uppercase;
+    text-shadow: 3px 3px 10px  rgb(25, 26, 25);
+}
+
+
+
+.Nav-Paginado{
+    display: flex;
+    
+}
+
+.Home-contenido{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+
+/* responsive*/ 
+@media only screen and (min-width:320px) and (max-width:800px){
+  
+    .Contenedor-home{
+         padding-top: 20px;
+        height: 250px;
+    }
+  
+  
+    .C-dos{
+        display: flex;
+       flex-direction: column;
+        }
+
+.C-tres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+
+}

@@ -1,0 +1,24 @@
+.Busqueda{
+    background-color: rgb(251, 255, 0);;
+    border-radius:5px;
+    padding-right: 80px;
+    padding-top:3px ;
+    padding-bottom:3px ;
+    margin-right: 2px;
+    padding-left: 5px;
+    
+}
+
+
+
+.sumit-bar{
+    background-color: rgb(243, 247, 11);
+    border: 2px black solid;
+    padding: 3px 5px ;
+    border-radius: 5px;
+}
+
+.sumit-bar:hover{
+    background-color: rgb(193, 196, 35);
+  cursor: pointer;
+}

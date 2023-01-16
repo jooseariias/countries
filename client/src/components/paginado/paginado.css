@@ -1,0 +1,40 @@
+.Paginado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    
+}
+
+.B-num{
+    margin-left: 5px;
+    margin-top:40px;
+    background-color: #eeff00;
+    padding: 3px 5px;
+    border: 1px solid ;
+    border-radius: 4px;
+}
+.B-num:hover{
+    background-color: rgb(193, 196, 35);
+    cursor: pointer;
+    
+}
+.C-Paginado-dos{
+    margin-bottom: 50px;
+}
+
+/* responsive*/ 
+@media only screen and (min-width:320px) and (max-width:800px){
+
+.Paginado{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.C-Paginado-dos{
+    margin-top: 50px;
+}
+
+
+
+}
